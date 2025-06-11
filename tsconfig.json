@@ -1,0 +1,38 @@
+{
+  "extends": ["@vue/tsconfig/tsconfig.json"],
+
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["ESNext", "DOM"],
+    "allowJs": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "noEmit": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*/"]
+    },
+    // "types": ["webpack-env"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/**/*.js",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}
