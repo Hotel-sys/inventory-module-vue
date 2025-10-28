@@ -5,12 +5,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "node server.js",
     "preview": "vite preview"
   },
   "dependencies": {
     "@iconify/vue": "^5.0.0",
-    "@internationalized/date": "^3.10.0",
     "@primeuix/themes": "^1.0.3",
     "@radix-icons/vue": "^1.0.0",
     "@tailwindcss/forms": "^0.5.10",
@@ -25,7 +23,6 @@
     "chartjs-adapter-moment": "^1.0.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "express": "^5.1.0",
     "flatpickr": "^4.6.13",
     "json-server": "^1.0.0-beta.3",
     "lucide": "^0.514.0",
